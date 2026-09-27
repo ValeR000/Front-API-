@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #29003e;
+  color: #f4f6fb;
+}
+
+.app {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.filtros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 16px 0;
+}
+
+.filtros input,
+.filtros select {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #333;
+  background: #172033;
+  color: inherit;
+}
+
+.personajes-flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.personaje-card {
+  background: #4c1169;
+  color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.personaje-card img {
+  width: 100%;
+  display: block;
+}
+
+.personaje-card h3,
+.personaje-card p {
+  margin: 8px 12px;
+}
+.filtros button {
+  font-family: system-ui, sans-serif;
+  border-radius: 8px;
+  border: 1px;
+  background: #4c1169;
+  color: #f9f9f9;
+}
+
+
+.filtros label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
